@@ -21,4 +21,4 @@ RUN pip install torchpack
 RUN pip install mmcv==1.4.0 mmcv-full==1.4.0 mmdet==2.20.0
 RUN pip install mpi4py==3.0.3
 RUN pip install numba==0.48.0
-RUN pip install pandas seaborn ipywidgets jupyter
+RUN pip install pandas seaborn ipywidgets jupyterwe

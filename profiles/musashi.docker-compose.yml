@@ -15,3 +15,20 @@ services:
         reservations:
           devices:
             - capabilities: [gpu]
+
+  # yolov5_obb: 
+  #   build:
+  #     context: .
+  #     dockerfile: ../docker/yolov5_obb/Dockerfile
+  #   ports:
+  #     - "6006:6006" # For Tensorboard
+  #   volumes: 
+  #     - ./:Musashi-AI
+  #   ipc: host
+  #   stdin_open: true
+  #   tty: true
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - capabilities: [gpu]

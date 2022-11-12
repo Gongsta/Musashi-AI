@@ -1,5 +1,14 @@
 # Musashi-AI
-Another dataset we found: https://vip.bu.edu/projects/vsns/cossy/datasets/habbof/
+Another dataset we downloaded: https://vip.bu.edu/projects/vsns/cossy/datasets/habbof/
+
+Then, running YOLOv5 with support for rotation oriented bounding boxes.
+
+https://blog.roboflow.com/yolov5-for-oriented-object-detection/
+
+We use a version of YOLO that supports orientation
+
+YOLO_OBB
+
 
 Pipeline
 1. Preprocess the image to generate crops for each ROI
