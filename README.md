@@ -1,5 +1,5 @@
 # Musashi-AI
-
+Another dataset we found: https://vip.bu.edu/projects/vsns/cossy/datasets/habbof/
 
 Pipeline
 1. Preprocess the image to generate crops for each ROI
