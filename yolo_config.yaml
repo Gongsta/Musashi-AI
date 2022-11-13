@@ -8,3 +8,10 @@ nc: 1
 
 # Class names 
 names: ['person']
+
+roboflow:
+  workspace: project
+  project: musashiai
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/musashiai/dataset/1
