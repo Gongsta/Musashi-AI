@@ -44,7 +44,11 @@ The training command above freezes the backbone of the pretrained model, uses a 
 ##### Step 3. Inferencing and Generating an Answer
 See the [final_answer_generation.ipynb](final_answer_generation.ipynb) notebook for the final answers we calculated.
 
-The [inference.ipynb](inference.ipynb) notebook was used to generate a video of the output.
+The [inference.ipynb](inference.ipynb) notebook was used to generate a video of the output. An example of an inferenced image can be seen below:
+
+![alt text](images/prediction.png)
+
+
 
 These final counts we submitted for each ROI for the entire video was a combination of the values below:
 - `[ROI1, ROI2, ROI3, ROI4, ROI5, ROI6]`
