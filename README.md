@@ -7,7 +7,14 @@ https://blog.roboflow.com/yolov5-for-oriented-object-detection/
 
 We use a version of YOLO that supports orientation
 
-YOLO_OBB
+Training:
+```bash
+python train.py --data /musashi/yolo_config.yaml --weights yolov5s.pt --epochs 100 --batch 256 --freeze 10
+```
+python train.py --data /musashi/yolo_config.yaml --weights yolov5x.pt --epochs 100 --batch 16 --freeze 10
+
+
+We freeze the backbone.
 
 
 Pipeline

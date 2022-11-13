@@ -1,0 +1,10 @@
+# Dataset paths relative to the yolov5 folder
+train: /musashi/hand_labelled_yolo/train/images
+val: /musashi/hand_labelled_yolo/valid/images
+test: /musashi/hand_labelled_yolo/test/images
+
+# Number of classes
+nc: 1
+
+# Class names 
+names: ['person']

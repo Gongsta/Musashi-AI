@@ -4,7 +4,7 @@ services:
     ports:
       - "6006:6006"
     volumes: 
-      - /mnt/wato-drive/perception:/datasets
+      - ../:/musashi
     ipc: host
     stdin_open: true
     tty: true
