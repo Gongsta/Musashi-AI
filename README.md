@@ -1,7 +1,9 @@
 # Waterloo.AI Data Challenge <> Musashi AI
 This computer vision project was completed by Steven Gong, Krish Parmar and Cheng Tang on November 12th, 2022 for the Musashi AI Challenge. We had around 10 hours to build this, and ended up placing 5th out of 25 teams.
 
-The dataset was provided by Musashi AI, which is a ~15 minute feed (13501 images) of a static camera recording manufactoring factory from a Bird-Eye View (BEV). We are given 6 regions of interests (ROIs), highlighted in the image below:
+The dataset was provided by Musashi AI, which is a ~15 minute feed (13501 images) of a static camera recording manufactoring factory from a Bird-Eye View (BEV). We are given 6 regions of interests (ROIs), highlighted in the image below (the red bounding boxes):
+
+![alt text](images/Screen%20Shot%202022-11-13%20at%2012.04.10%20AM.png)
 
 No labels are given (just like how this would be in real life), and the challenge is to come up with an algorithm that can count the total number of frames for which a particular ROI is occupied in the entire video.
 
